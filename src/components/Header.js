@@ -1,4 +1,14 @@
+import Cart from "@/components/common/cart";
+import {useRouter} from "next/router";
+import Link from "next/link";
+
 function Header() {
+    const router = useRouter();
+
+    const handleClick = (e) => {
+        e.preventDefault();
+        router.push(<Cart/>);
+    };
     return(
         <>
 
@@ -27,18 +37,18 @@ function Header() {
                                     <nav>
                                         <ul id="navigation">
                                             <li>
-                                                <a href="/">Home</a>
+                                                <Link href="/">Home</Link>
                                             </li>
                                             <li>
-                                                <a href="/shop">shop</a>
+                                                <Link href="/shop">shop</Link>
                                             </li>
                                             <li>
-                                                <a href="/about">about</a>
+                                                <Link href="/about">about</Link>
                                             </li>
 
 
                                             <li>
-                                                <a href="/contact">Contact</a>
+                                                <Link href="/contact">Contact</Link>
                                             </li>
                                         </ul>
                                     </nav>
@@ -57,9 +67,9 @@ function Header() {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="cart.html">
-                                                <span className="flaticon-shopping-cart" />
-                                            </a>
+                                            <Link href="/cart">
+                                                <span className="flaticon-shopping-cart"/>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>

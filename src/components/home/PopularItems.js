@@ -1,4 +1,5 @@
 import {useSelector} from "react-redux";
+import Link from "next/link";
 
 function PopularItems() {
 
@@ -36,7 +37,8 @@ function PopularItems() {
                             </div>
                             <div className="popular-caption">
                                 <h3>
-                                    <a href="product_details.html">Thermo Ball Etip Gloves</a>
+                                    {/*<a href="product_details.html">Thermo Ball Etip Gloves</a>*/}
+                                    <Link href={`detail/${item.id}`}>Thermo Ball Etip Gloves</Link>
                                 </h3>
                                 <span>$ 45,743</span>
                             </div>
@@ -47,9 +49,12 @@ function PopularItems() {
                 {/* Button */}
                 <div className="row justify-content-center">
                     <div className="room-btn pt-70">
-                        <a href="catagori.html" className="btn view-btn1">
+                        {/*<a href="catagori.html" className="btn view-btn1">*/}
+                        {/*    View More Products*/}
+                        {/*</a>*/}
+                        <Link href="/shop" className="btn view-btn1">
                             View More Products
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
