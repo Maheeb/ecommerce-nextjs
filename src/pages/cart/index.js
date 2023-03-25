@@ -1,6 +1,7 @@
 import {useDispatch, useSelector} from "react-redux";
 import {useEffect, useState} from "react";
 import {updateSingleProduct} from "@/components/store/globalArray";
+import Link from "next/link";
 
 function Cart() {
     const cartProducts = useSelector(state => state.create.productTaken);
@@ -214,9 +215,9 @@ function Cart() {
                             </table>
                             <div className="checkout_btn_inner float-right">
 
-                                <a className="btn_1 checkout_btn_1" href="#">
+                                <Link className="btn_1 checkout_btn_1" href="/checkout">
                                     Proceed to checkout
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
