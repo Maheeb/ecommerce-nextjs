@@ -28,19 +28,19 @@ function PopularItems() {
                         <div className="single-popular-items mb-50 text-center">
                             <div className="popular-img">
                                 <img src={`/img/gallery/${item.image}`} alt="" />
-                                <div className="img-cap">
-                                    <span>Add to cart</span>
-                                </div>
-                                <div className="favorit-items">
-                                    <span className="flaticon-heart" />
-                                </div>
+                                {/*<div className="img-cap">*/}
+                                {/*    <span>Add to cart</span>*/}
+                                {/*</div>*/}
+                                {/*<div className="favorit-items">*/}
+                                {/*    <span className="flaticon-heart" />*/}
+                                {/*</div>*/}
                             </div>
                             <div className="popular-caption">
                                 <h3>
                                     {/*<a href="product_details.html">Thermo Ball Etip Gloves</a>*/}
                                     <Link href={`detail/${item.id}`}>Thermo Ball Etip Gloves</Link>
                                 </h3>
-                                <span>$ 45,743</span>
+                                <span>$ {item.price}</span>
                             </div>
                         </div>
                     </div>

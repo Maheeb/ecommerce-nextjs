@@ -12,6 +12,9 @@ function Header() {
     const { asPath } = useRouter()
 
     const checkUrl =asPath.includes("detail") ?'/detail':"detail";
+    const cartProducts = useSelector(state => state.create.productTaken);
+    const totalAmount = cartProducts.length>0 && cartProducts.reduce((acc, item) => acc + (item.count*item.price), 0);
+    const totalItemInCart = cartProducts.length>0 && cartProducts.reduce((acc, item) => acc + item.count, 0);
 
     const handleClick = (e) => {
         e.preventDefault();
@@ -69,9 +72,9 @@ function Header() {
                         <div className="container-fluid">
                             <div className="menu-wrapper">
                                 <div className="logo">
-                                    <a href="/">
+                                    <Link href="/">
                                         <img src="/img/logo/logo.png" alt="" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 <div className="main-menu d-none d-lg-block">
                                     <nav>
@@ -110,16 +113,32 @@ function Header() {
 
 
                                         </li>
-                                        <li>
+                                        {/*<li>*/}
 
-                                            <a href="login.html">
-                                                <span className="flaticon-user" />
-                                            </a>
-                                        </li>
+                                        {/*    <a href="login.html">*/}
+                                        {/*        <span className="flaticon-user" />*/}
+                                        {/*    </a>*/}
+                                        {/*</li>*/}
+                                        {/*<li><a href="#"><i className="fa fa-shopping-bag"></i> <span>{totalItemInCart}</span></a></li>*/}
+
                                         <li>
+                                            {/*<Link href="/cart">*/}
+                                            {/*    <span className="flaticon-shopping-cart"/>*/}
+                                            {/*    <span className="cart-badge">3</span>*/}
+                                            {/*</Link> */}
                                             <Link href="/cart">
-                                                <span className="flaticon-shopping-cart"/>
+                                                <span className="flaticon-shopping-cart">
+                                                    <span style={{position: "relative",
+                                                        top: "-8px",
+                                                        left: "-18px",
+                                                        color: "red",
+                                                        fontSize: "22px"}}>
+                                                        {totalItemInCart}
+                                                    </span>
+                                                </span>
                                             </Link>
+
+
                                         </li>
                                     </ul>
                                 </div>
