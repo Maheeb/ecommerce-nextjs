@@ -141,7 +141,7 @@ function CheckoutContent() {
                                             name="fn"
                                             value={fn}
                                             onChange={handleChange}
-                                            placeholder="First name"
+                                            placeholder="First name*"
                                         />
                                         {errors.fn && <p style={{color:'red'}}>{errors.fn}</p>}
                                     </div>
@@ -153,7 +153,7 @@ function CheckoutContent() {
                                             name="ln"
                                             value={ln}
                                             onChange={handleChange}
-                                            placeholder="Last name"
+                                            placeholder="Last name*"
                                         />
                                         {errors.ln && <p style={{color:'red'}}>{errors.ln}</p>}
                                     </div>
@@ -174,7 +174,7 @@ function CheckoutContent() {
                                             name="phone"
                                             value={phone}
                                             onChange={handleChange}
-                                            placeholder="Phone Number"
+                                            placeholder="Phone Number*"
                                         />
                                         {errors.phone && <p style={{color:'red'}}>{errors.phone}</p>}
                                     </div>
@@ -186,7 +186,7 @@ function CheckoutContent() {
                                             name="email"
                                             value={email}
                                             onChange={handleChange}
-                                            placeholder="Email Address"
+                                            placeholder="Email Address*"
                                         />
                                         {errors.email && <p style={{color:'red'}}>{errors.email}</p>}
                                     </div>
@@ -198,7 +198,7 @@ function CheckoutContent() {
                                             name="address1"
                                             value={address1}
                                             onChange={handleChange}
-                                            placeholder="Address line 01"
+                                            placeholder="Address line 01*"
                                         />
                                         {errors.address1 && <p style={{color:'red'}}>{errors.address1}</p>}
 
@@ -211,7 +211,7 @@ function CheckoutContent() {
                                             name="address2"
                                             value={address2}
                                             onChange={handleChange}
-                                            placeholder="Address line 02"
+                                            placeholder="Address line 02*"
                                         />
                                         {errors.address2 && <p style={{color:'red'}}>{errors.address2}</p>}
                                     </div>
@@ -223,7 +223,7 @@ function CheckoutContent() {
                                             name="town"
                                             value={town}
                                             onChange={handleChange}
-                                            placeholder="Town/City"
+                                            placeholder="Town/City*"
                                         />
                                         {errors.town && <p style={{color:'red'}}>{errors.town}</p>}
                                     </div>
@@ -235,7 +235,7 @@ function CheckoutContent() {
                                             name="zip"
                                             value={zip}
                                             onChange={handleChange}
-                                            placeholder="zip"
+                                            placeholder="zip*"
                                         />
                                         {errors.zip && <p style={{color:'red'}}>{errors.zip}</p>}
 
