@@ -5,7 +5,6 @@ import Link from "next/link";
 
 function Cart() {
     const cartProducts = useSelector(state => state.create.productTaken);
-    console.log(cartProducts);
     const [products,setProduct] = useState([]);
     const dispatch = useDispatch();
     const [localValues, setLocalValues] = useState(cartProducts);
