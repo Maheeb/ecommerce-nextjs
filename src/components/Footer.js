@@ -29,19 +29,22 @@ function Footer() {
                             <div className="col-xl-2 col-lg-3 col-md-3 col-sm-5">
                                 <div className="single-footer-caption mb-50">
                                     <div className="footer-tittle">
-                                        <h4>Quick Links</h4>
+                                        <h4>Lorem ipsum dolor sit amet</h4>
                                         <ul>
                                             <li>
-                                                <a href="#">About</a>
+                                                <a href="#"> Aenean malesuada</a>
+
                                             </li>
                                             <li>
-                                                <a href="#"> Offers &amp; Discounts</a>
+                                                <a href="#"> Aenean malesuada</a>
                                             </li>
                                             <li>
-                                                <a href="#"> Get Coupon</a>
+                                                <a href="#"> Aenean malesuada</a>
+
                                             </li>
                                             <li>
-                                                <a href="#"> Contact Us</a>
+                                                <a href="#"> Aenean malesuada</a>
+
                                             </li>
                                         </ul>
                                     </div>
@@ -50,19 +53,19 @@ function Footer() {
                             <div className="col-xl-3 col-lg-3 col-md-4 col-sm-7">
                                 <div className="single-footer-caption mb-50">
                                     <div className="footer-tittle">
-                                        <h4>New Products</h4>
+                                        <h4>Donec mauris diam</h4>
                                         <ul>
                                             <li>
-                                                <a href="#">Woman Cloth</a>
+                                                <a href="#">malesuada ac bibendum</a>
                                             </li>
                                             <li>
-                                                <a href="#">Fashion Accessories</a>
+                                                <a href="#">malesuada ac bibendum</a>
                                             </li>
                                             <li>
-                                                <a href="#"> Man Accessories</a>
+                                                <a href="#"> malesuada ac bibendum</a>
                                             </li>
                                             <li>
-                                                <a href="#"> Rubber made Toys</a>
+                                                <a href="#"> malesuada ac bibendum</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -71,19 +74,19 @@ function Footer() {
                             <div className="col-xl-3 col-lg-3 col-md-5 col-sm-7">
                                 <div className="single-footer-caption mb-50">
                                     <div className="footer-tittle">
-                                        <h4>Support</h4>
+                                        <h4>Aliquam lobortis  justo</h4>
                                         <ul>
                                             <li>
-                                                <a href="#">Frequently Asked Questions</a>
+                                                <a href="#">Aliquam lobortis volutpat justo</a>
                                             </li>
                                             <li>
-                                                <a href="#">Terms &amp; Conditions</a>
+                                                <a href="#">Aliquam lobortis volutpat justo</a>
                                             </li>
                                             <li>
-                                                <a href="#">Privacy Policy</a>
+                                                <a href="#">Aliquam lobortis volutpat justo</a>
                                             </li>
                                             <li>
-                                                <a href="#">Report a Payment Issue</a>
+                                                <a href="#">Aliquam lobortis volutpat justo</a>
                                             </li>
                                         </ul>
                                     </div>
@@ -91,40 +94,7 @@ function Footer() {
                             </div>
                         </div>
                         {/* Footer bottom */}
-                        <div className="row align-items-center">
-                            <div className="col-xl-7 col-lg-8 col-md-7">
-                                <div className="footer-copy-right">
-                                    <p>
-                                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                                        Copyright © All rights reserved | This template is made with{" "}
-                                        <i className="fa fa-heart" aria-hidden="true" /> by{" "}
-                                        <a href="https://colorlib.com" target="_blank">
-                                            Colorlib
-                                        </a>
-                                        {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="col-xl-5 col-lg-4 col-md-5">
-                                <div className="footer-copy-right f-right">
-                                    {/* social */}
-                                    <div className="footer-social">
-                                        <a href="#">
-                                            <i className="fab fa-twitter" />
-                                        </a>
-                                        <a href="https://www.facebook.com/sai4ull">
-                                            <i className="fab fa-facebook-f" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fab fa-behance" />
-                                        </a>
-                                        <a href="#">
-                                            <i className="fas fa-globe" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
                 {/* Footer End*/}

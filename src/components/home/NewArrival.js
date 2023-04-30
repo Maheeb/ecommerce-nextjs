@@ -16,12 +16,12 @@ function NewArrival() {
                             <div className="product-img">
                                 <img src="/img/gallery/new_product1.png" alt="" />
                             </div>
-                            <div className="product-caption">
-                                <h3>
-                                    <a href="product_details.html">Thermo Ball Etip Gloves</a>
-                                </h3>
-                                <span>$ 45,743</span>
-                            </div>
+                            {/*<div className="product-caption">*/}
+                            {/*    <h3>*/}
+                            {/*        <a href="product_details.html">Thermo Ball Etip Gloves</a>*/}
+                            {/*    </h3>*/}
+                            {/*    <span>$ 45,743</span>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -29,12 +29,12 @@ function NewArrival() {
                             <div className="product-img">
                                 <img src="/img/gallery/new_product2.png" alt="" />
                             </div>
-                            <div className="product-caption">
-                                <h3>
-                                    <a href="product_details.html">Thermo Ball Etip Gloves</a>
-                                </h3>
-                                <span>$ 45,743</span>
-                            </div>
+                            {/*<div className="product-caption">*/}
+                            {/*    <h3>*/}
+                            {/*        <a href="product_details.html">Thermo Ball Etip Gloves</a>*/}
+                            {/*    </h3>*/}
+                            {/*    <span>$ 45,743</span>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6">
@@ -42,12 +42,12 @@ function NewArrival() {
                             <div className="product-img">
                                 <img src="/img/gallery/new_product3.png" alt="" />
                             </div>
-                            <div className="product-caption">
-                                <h3>
-                                    <a href="product_details.html">Thermo Ball Etip Gloves</a>
-                                </h3>
-                                <span>$ 45,743</span>
-                            </div>
+                            {/*<div className="product-caption">*/}
+                            {/*    <h3>*/}
+                            {/*        <a href="product_details.html">Thermo Ball Etip Gloves</a>*/}
+                            {/*    </h3>*/}
+                            {/*    <span>$ 45,743</span>*/}
+                            {/*</div>*/}
                         </div>
                     </div>
                 </div>

@@ -133,7 +133,7 @@ function Header() {
                                                         left: "-18px",
                                                         color: "red",
                                                         fontSize: "22px"}}>
-                                                        {totalItemInCart}
+                                                        {totalItemInCart <0 ? 0 : totalItemInCart}
                                                     </span>
                                                 </span>
                                             </Link>

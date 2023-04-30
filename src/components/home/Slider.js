@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Slider() {
     return(
         <>
@@ -30,9 +32,9 @@ function Slider() {
                                             data-delay=".8s"
                                             data-duration="2000ms"
                                         >
-                                            <a href="industries.html" className="btn hero-btn">
+                                            <Link href="/shop" className="btn hero-btn">
                                                 Shop Now
-                                            </a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>

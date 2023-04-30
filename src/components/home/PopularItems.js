@@ -38,7 +38,7 @@ function PopularItems() {
                             <div className="popular-caption">
                                 <h3>
                                     {/*<a href="product_details.html">Thermo Ball Etip Gloves</a>*/}
-                                    <Link href={`detail/${item.id}`}>Thermo Ball Etip Gloves</Link>
+                                    <Link href={`detail/${item.id}`}>{item.name}</Link>
                                 </h3>
                                 <span>$ {item.price}</span>
                             </div>
